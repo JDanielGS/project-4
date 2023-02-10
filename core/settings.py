@@ -1,8 +1,8 @@
 from pathlib import Path
-import environ
 import os
+import environ
 
-env=environ.Env()
+env = environ.Env()
 environ.Env.read_env()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +25,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'core'
+    'core',
+    'upload',
+    'templates',
 
 ]
 

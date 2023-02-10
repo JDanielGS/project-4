@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploads</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css", href="{% static 'uploads/css/style.css' %}">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Upload Page</h1>
+    </header>
+    <main class="main">
+        <h2 class="main-title">Welcome to my uploading page with Django </h2>
+        <div class="main-box">
+            <img src="{% static 'uploads/img/MrRobot.jpg' %}" alt="MrRobot" class="main-img">
+        </div>
+    </main>
+
+    <script src="{% static 'uploads/js/script.js' %}"></script>
+</body>
+</html>
